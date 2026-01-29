@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+  <h1>Activitat 4:</h1>
+
+  <h1>Búsqueda de cámaras de fotos</h1>
+
+  <form>
+
+    <p>
+      <label>Marca:</label><br>
+      <select name="marca">
+        <option>Canon</option>
+        <option>Nikon</option>
+        <option>Sony</option>
+        <option>Fujifilm</option>
+      </select>
+    </p>
+
+    <p>
+      <label>Tipo de cámara:</label><br>
+      <input type="radio" name="tipo" value="reflex"> Réflex
+      <input type="radio" name="tipo" value="compacta"> Compacta
+      <input type="radio" name="tipo" value="mirrorless"> Mirrorless
+    </p>
+
+    <p>
+      <label>Resolución mínima (MP):</label><br>
+      <input type="number" name="mp" min="10" max="100">
+    </p>
+
+    <p>
+      <label>Precio máximo (€):</label><br>
+      <input type="number" name="precio">
+    </p>
+
+    <p>
+      <label>¿Graba vídeo?</label><br>
+      <input type="checkbox" name="video"> Sí
+    </p>
+
+    <p>
+      <button type="submit">Buscar</button>
+    </p>
+
+  </form>
+
+</body>
+</html>
